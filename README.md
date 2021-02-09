@@ -1,0 +1,2 @@
+# WIN32_Driveway
+Win32 application ca. 1997 to compute the layout for the driveway and parking court for my new home. The architect designed a radial pattern, and we wanted to fit in a basketball court. All of this with separate concrete pours coupled with some granite and concrete pavers. Plus we had to integrate a curved drain. Easiest solution was to write a Windows app to do the math and print out a bill of materials and coordinates for all the key junctions.
