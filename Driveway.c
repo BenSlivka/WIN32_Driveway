@@ -130,7 +130,7 @@ int PASCAL WinMain(HANDLE hInstance,
     time_t  aclock;
 
     fout = fopen("driveway.txt","w"); //* detailed measurements
-    fprintf(fout, "1807 94th Ave NE: Driveway & paver measurements\n\n");
+    fprintf(fout, "Custom Home: Driveway & paver measurements\n\n");
     fprintf(fout, "Notes:\n");
     fprintf(fout, "(1) all dimensions given as x,y\n");
     fprintf(fout, "(2) 0,0 is NORTH edge of driveway at circle center\n");
