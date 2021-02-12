@@ -1,4 +1,4 @@
-/***    driveway - draw 1807 94th Ave NE driveway layout
+/***    driveway - draw custom home driveway layout
  *
  *      Author:
  *      (c) 1997, Benjamin W. Slivka
@@ -564,10 +564,10 @@ VOID DrawDriveway(HDC hdc,RECT *prect)
 
     f = Arc( 
 	hdc,           // handle to device context 
-	sx(xiLeft),     // x-coordinate of bounding rectangle’s upper-left corner 
-	sy(yiTop),      // y-coordinate of bounding rectangle’s upper-left corner 
-	sx(xiRight),    // x-coordinate of bounding rectangle’s lower-right corner 
-	sy(yiBottom),   // y-coordinate of bounding rectangle’s lower-right corner 
+	sx(xiLeft),     // x-coordinate of bounding rectangleÂ’s upper-left corner 
+	sy(yiTop),      // y-coordinate of bounding rectangleÂ’s upper-left corner 
+	sx(xiRight),    // x-coordinate of bounding rectangleÂ’s lower-right corner 
+	sy(yiBottom),   // y-coordinate of bounding rectangleÂ’s lower-right corner 
 	
 	sx(xiStartArc), // first radial ending point 
 	sy(yiStartArc), // first radial ending point 
@@ -728,10 +728,10 @@ VOID DrawDriveway(HDC hdc,RECT *prect)
     
     f = Arc( 
 	hdc,           // handle to device context 
-	sx(xiLeft),     // x-coordinate of bounding rectangle’s upper-left corner 
-	sy(yiTop),      // y-coordinate of bounding rectangle’s upper-left corner 
-	sx(xiRight),    // x-coordinate of bounding rectangle’s lower-right corner 
-	sy(yiBottom),   // y-coordinate of bounding rectangle’s lower-right corner 
+	sx(xiLeft),     // x-coordinate of bounding rectangleÂ’s upper-left corner 
+	sy(yiTop),      // y-coordinate of bounding rectangleÂ’s upper-left corner 
+	sx(xiRight),    // x-coordinate of bounding rectangleÂ’s lower-right corner 
+	sy(yiBottom),   // y-coordinate of bounding rectangleÂ’s lower-right corner 
 	
 	sx(xiStartArc), // first radial ending point 
 	sy(yiStartArc), // first radial ending point 
@@ -745,10 +745,10 @@ VOID DrawDriveway(HDC hdc,RECT *prect)
     //* Draw inner arc to indicate 6" paver border
     f = Arc( 
 	hdc,           // handle to device context 
-	sx(xiLeft + ciPaver),     // x-coordinate of bounding rectangle’s upper-left corner 
-	sy(yiTop - ciPaver),      // y-coordinate of bounding rectangle’s upper-left corner 
-	sx(xiRight - ciPaver),    // x-coordinate of bounding rectangle’s lower-right corner 
-	sy(yiBottom + ciPaver),   // y-coordinate of bounding rectangle’s lower-right corner 
+	sx(xiLeft + ciPaver),     // x-coordinate of bounding rectangleÂ’s upper-left corner 
+	sy(yiTop - ciPaver),      // y-coordinate of bounding rectangleÂ’s upper-left corner 
+	sx(xiRight - ciPaver),    // x-coordinate of bounding rectangleÂ’s lower-right corner 
+	sy(yiBottom + ciPaver),   // y-coordinate of bounding rectangleÂ’s lower-right corner 
 	
 	sx(xiStartArc - ciPaver), // first radial ending point 
 	sy(yiStartArc - ciPaver), // first radial ending point 
@@ -796,10 +796,10 @@ VOID DrawDriveway(HDC hdc,RECT *prect)
     hpenSave = SelectObject(hdc,hpenGuide);
     f = Arc( 
 	hdc,           // handle to device context 
-	sx(xiLeft),     // x-coordinate of bounding rectangle’s upper-left corner 
-	sy(yiTop),      // y-coordinate of bounding rectangle’s upper-left corner 
-	sx(xiRight),    // x-coordinate of bounding rectangle’s lower-right corner 
-	sy(yiBottom),   // y-coordinate of bounding rectangle’s lower-right corner 
+	sx(xiLeft),     // x-coordinate of bounding rectangleÂ’s upper-left corner 
+	sy(yiTop),      // y-coordinate of bounding rectangleÂ’s upper-left corner 
+	sx(xiRight),    // x-coordinate of bounding rectangleÂ’s lower-right corner 
+	sy(yiBottom),   // y-coordinate of bounding rectangleÂ’s lower-right corner 
 	
 	sx(xiStartArc), // first radial ending point 
 	sy(yiStartArc), // first radial ending point 
@@ -811,10 +811,10 @@ VOID DrawDriveway(HDC hdc,RECT *prect)
     //* Draw outer arc to indicate 6.5" drain width
     f = Arc( 
 	hdc,           // handle to device context 
-	sx(xiLeft - ciDrain),     // x-coordinate of bounding rectangle’s upper-left corner 
-	sy(yiTop + ciDrain),      // y-coordinate of bounding rectangle’s upper-left corner 
-	sx(xiRight + ciDrain),    // x-coordinate of bounding rectangle’s lower-right corner 
-	sy(yiBottom - ciDrain),   // y-coordinate of bounding rectangle’s lower-right corner 
+	sx(xiLeft - ciDrain),     // x-coordinate of bounding rectangleÂ’s upper-left corner 
+	sy(yiTop + ciDrain),      // y-coordinate of bounding rectangleÂ’s upper-left corner 
+	sx(xiRight + ciDrain),    // x-coordinate of bounding rectangleÂ’s lower-right corner 
+	sy(yiBottom - ciDrain),   // y-coordinate of bounding rectangleÂ’s lower-right corner 
 	
 	sx(xiStartArc + ciDrain), // first radial ending point 
 	sy(yiStartArc + ciDrain), // first radial ending point 
@@ -863,10 +863,10 @@ VOID DrawDriveway(HDC hdc,RECT *prect)
 
     f = Arc( 
 	hdc,           // handle to device context 
-	sx(xiLeft),     // x-coordinate of bounding rectangle’s upper-left corner 
-	sy(yiTop),      // y-coordinate of bounding rectangle’s upper-left corner 
-	sx(xiRight),    // x-coordinate of bounding rectangle’s lower-right corner 
-	sy(yiBottom),   // y-coordinate of bounding rectangle’s lower-right corner 
+	sx(xiLeft),     // x-coordinate of bounding rectangleÂ’s upper-left corner 
+	sy(yiTop),      // y-coordinate of bounding rectangleÂ’s upper-left corner 
+	sx(xiRight),    // x-coordinate of bounding rectangleÂ’s lower-right corner 
+	sy(yiBottom),   // y-coordinate of bounding rectangleÂ’s lower-right corner 
 	
 	sx(xiStartArc), // first radial ending point 
 	sy(yiStartArc), // first radial ending point 
